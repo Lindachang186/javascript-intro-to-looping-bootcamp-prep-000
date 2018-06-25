@@ -22,7 +22,7 @@ function doWhileLoop(array){
   }
 
   do {
-    console.log('array')
+    --array
   } while (maybeTrue());
 return array
 }
