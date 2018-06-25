@@ -23,6 +23,5 @@ function doWhileLoop(array){
 do {
   console.log('done')
 } while (maybeTrue())
-}
-return array;
+return array
 }
