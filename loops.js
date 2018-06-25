@@ -17,10 +17,9 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-    return array.length > 0 && maybeTrue()
-
+    return array.length > 0 && false
   do {
     array.pop
-  } while (maybeTrue());
+  } while (array.length === 0);
 return array
 }
